@@ -15,7 +15,7 @@ public class Rauminhalt {
 	 * @param h Höhe
 	 * @return Volumen der Pyramide
 	 */
-	double pyramidVol(double a, double b, double h){
+	public static double pyramidVol(double a, double b, double h){
 		return a*b*h*1/3;
 	}
 	
@@ -26,7 +26,7 @@ public class Rauminhalt {
 	 * @param h Höhe
 	 * @return Volumen des Kegels
 	 */
-	double coneVol(double r, double h){
+	public static double coneVol(double r, double h){
 		return r*r*Math.PI*h*1/3;
 	}
 	
@@ -38,7 +38,7 @@ public class Rauminhalt {
 	 * @param c dritte Seite
 	 * @return Volumen des Quaders
 	 */
-	double quaderVol(double a,double b, double c){
+	public static double quaderVol(double a,double b, double c){
 		return a*b*c;
 	}
 }
