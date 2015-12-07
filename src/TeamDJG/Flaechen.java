@@ -1,17 +1,4 @@
 package TeamDJG;
-<<<<<<< HEAD
-
-public class Flaechen {
-	private int a;
-	private int h;
-	private int b;
-	private int c;
-	private char posH;
-	private int r;
-	private int form;
-	
-	public Flaechen(int a, int b) {
-=======
 /**
  * Die Flaechenberechnung
  * @author Michael Jindra
@@ -30,19 +17,14 @@ public class Flaechen {
 	//Konstruktoren
 	//Rechteck
 	public Flaechen(double a, double b) {
->>>>>>> origin/DJG
 		super();
 		this.a = a;
 		this.b = b;
 		form = 4;
 	}
-
-<<<<<<< HEAD
-	public Flaechen(int a, int h, int b, int c, char posH) {
-=======
+	
 	//Dreieck
 	public Flaechen(double a, double h, double b, double c, char posH) {
->>>>>>> origin/DJG
 		super();
 		this.a = a;
 		this.h = h;
@@ -52,22 +34,14 @@ public class Flaechen {
 		form = 3;
 	}
 
-<<<<<<< HEAD
 	
-	public Flaechen(int r) {
-=======
 	//Kreis
 	public Flaechen(double r) {
->>>>>>> origin/DJG
 		super();
 		this.r = r;
 		form = 0;
 	}
 	
-<<<<<<< HEAD
-	
-	public void flaechenInhalt(){
-=======
 	//Methoden
 	/**
 	 * Der Name sagt alles aus
@@ -99,7 +73,6 @@ public class Flaechen {
 		case 4: return (a+b)*2;
 		}
 		return 0;
->>>>>>> origin/DJG
 	}
 
 	
