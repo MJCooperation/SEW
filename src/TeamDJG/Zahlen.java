@@ -9,7 +9,7 @@ import javax.swing.*;
 
 /**
  * Klasse Zahlen 
- * @author JunJie (Synchronisieren hat nicht funktioniert)
+ * @author JunJie 
  * @version 4-12-2015
  */
 public class Zahlen {
